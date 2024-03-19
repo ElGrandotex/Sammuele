@@ -1,0 +1,35 @@
+$footerColor : #423F3F;
+$colorFooter: #ECE9E1;
+
+footer {
+  background-color: $footerColor;
+  color: $colorFooter;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+  filter:invert(90%)
+}
+
+.inter-fuente {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 130%;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.separador {
+  border-top: 1px solid white;
+  margin: 20px 0;
+}
