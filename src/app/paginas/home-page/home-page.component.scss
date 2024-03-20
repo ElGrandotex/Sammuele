@@ -1,0 +1,51 @@
+.fondoImagen{
+  background-size: cover;
+  background-image: url(/assets/imagenes/fondo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 788px;
+  z-index: -1;
+}
+
+p{
+  z-index: 1;
+}
+
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9vh;
+  color: #F27C38;
+  text-shadow: 2px 2px 1px white;
+}
+
+.uncial {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 9vh;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px black;
+}
+
+.inter-fuente{
+  color: #ECE9E1;
+  font-size: 3vh;
+  text-shadow: 1px 1px 1px black;
+}
+
+.ubicacion {
+  font-size: 3vh;
+  font-variation-settings:
+  'FILL' 40,
+  'wght' 600,
+  'GRAD' 100,
+  'opsz' 24
+}
