@@ -1,0 +1,46 @@
+$fondoTexto : #423F3F;
+$fondoPag : #262626;
+
+.wire-one {
+  font-family: "Wire One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.wire-one2 {
+  font-family: "Wire One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+}
+
+.fondoText {
+  background-color: $fondoTexto;
+}
+
+.fondo {
+  background-color: $fondoPag;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  padding: 5px;
+}
+
+hr {
+  border-left: 18px solid #F24E1E;
+  height: 100px;
+  margin: 0 10px;
+  border-radius: 18px;
+  opacity: 1;
+}
+
+.contenedor{
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
