@@ -1,0 +1,35 @@
+$fondo : #262626;
+
+nav {
+  background-color: $fondo;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.inter-fuente {
+  font-size: 19px;
+}
+
+img {
+  width: 55px;
+  height: 57px;
+  z-index: 1;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whatsapp{
+  position: absolute;
+  width: 205px;
+  height: 48px;
+  right: 60px;
+  z-index: 0;
+  background: #27C043;
+  border-radius: 4px;
+}
