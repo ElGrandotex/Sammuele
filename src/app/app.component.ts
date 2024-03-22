@@ -4,6 +4,7 @@ import { PiePaginaComponent } from './componentes/pie-pagina/pie-pagina.componen
 import { MenuComponent } from './componentes/menu/menu.component';
 import { HomePageComponent } from './paginas/home-page/home-page.component';
 import { ProductosComponent } from './paginas/productos/productos.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { ProductosComponent } from './paginas/productos/productos.component';
     PiePaginaComponent,
     MenuComponent,
     HomePageComponent,
-    ProductosComponent
+    ProductosComponent,
+    HttpClientModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
