@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Hamburguesa",
+    "precio": 1.50,
+    "descripcion": "hamburguesa con queso",
+    "imagen": "assets\/productos\/hamburguesas\/hamburguesa.jpg"
+  },
+  {
+    "nombre": "Hamburguesa",
+    "precio": 1.50,
+    "descripcion": "hamburguesa con queso",
+    "imagen": "assets\/productos\/hamburguesas\/hamburguesa.jpg"
+  },
+  {
+    "nombre": "Hamburguesa",
+    "precio": 1.50,
+    "descripcion": "hamburguesa con queso",
+    "imagen": "assets\/productos\/hamburguesas\/hamburguesa.jpg"
+  },
+  {
+    "nombre": "Hamburguesa",
+    "precio": 1.50,
+    "descripcion": "hamburguesa con queso",
+    "imagen": "assets\/productos\/hamburguesas\/hamburguesa.jpg"
+  },
+  {
+    "nombre": "Hamburguesa",
+    "precio": 1.50,
+    "descripcion": "hamburguesa con queso",
+    "imagen": "assets\/productos\/hamburguesas\/hamburguesa.jpg"
+  }
+]

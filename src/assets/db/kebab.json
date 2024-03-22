@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Kebab",
+    "precio": 1.50,
+    "descripcion": "Kebab de pollo",
+    "imagen": "assets\/productos\/kebabs\/kebab.jpeg"
+  },
+  {
+    "nombre": "Kebab",
+    "precio": 1.50,
+    "descripcion": "Kebab de pollo",
+    "imagen": "assets\/productos\/kebabs\/kebab.jpeg"
+  },
+  {
+    "nombre": "Kebab",
+    "precio": 1.50,
+    "descripcion": "Kebab de pollo",
+    "imagen": "assets\/productos\/kebabs\/kebab.jpeg"
+  },
+  {
+    "nombre": "Kebab",
+    "precio": 1.50,
+    "descripcion": "Kebab de pollo",
+    "imagen": "assets\/productos\/kebabs\/kebab.jpeg"
+  },
+  {
+    "nombre": "Kebab",
+    "precio": 1.50,
+    "descripcion": "Kebab de pollo",
+    "imagen": "assets\/productos\/kebabs\/kebab.jpeg"
+  }
+]

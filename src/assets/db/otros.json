@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "otro",
+    "precio": 1.50,
+    "descripcion": "otro de pollo",
+    "imagen": "assets\/productos\/otros\/otro.jpeg"
+  },
+  {
+    "nombre": "otro",
+    "precio": 1.50,
+    "descripcion": "otro de pollo",
+    "imagen": "assets\/productos\/otros\/otro.jpeg"
+  },
+  {
+    "nombre": "otro",
+    "precio": 1.50,
+    "descripcion": "otro de pollo",
+    "imagen": "assets\/productos\/otros\/otro.jpeg"
+  },
+  {
+    "nombre": "otro",
+    "precio": 1.50,
+    "descripcion": "otro de pollo",
+    "imagen": "assets\/productos\/otros\/otro.jpeg"
+  },
+  {
+    "nombre": "otro",
+    "precio": 1.50,
+    "descripcion": "otro de pollo",
+    "imagen": "assets\/productos\/otros\/otro.jpeg"
+  }
+]

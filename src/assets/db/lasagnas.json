@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "lasagna",
+    "precio": 1.50,
+    "descripcion": "lasagna de pollo",
+    "imagen": "assets\/productos\/lasagnas\/lasagna.jpg"
+  },
+  {
+    "nombre": "lasagna",
+    "precio": 1.50,
+    "descripcion": "lasagna de pollo",
+    "imagen": "assets\/productos\/lasagnas\/lasagna.jpg"
+  },
+  {
+    "nombre": "lasagna",
+    "precio": 1.50,
+    "descripcion": "lasagna de pollo",
+    "imagen": "assets\/productos\/lasagnas\/lasagna.jpg"
+  },
+  {
+    "nombre": "lasagna",
+    "precio": 1.50,
+    "descripcion": "lasagna de pollo",
+    "imagen": "assets\/productos\/lasagnas\/lasagna.jpg"
+  },
+  {
+    "nombre": "lasagna",
+    "precio": 1.50,
+    "descripcion": "lasagna de pollo",
+    "imagen": "assets\/productos\/lasagnas\/lasagna.jpg"
+  }
+]

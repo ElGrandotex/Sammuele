@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "panini",
+    "precio": 1.50,
+    "descripcion": "panini de pollo",
+    "imagen": "assets\/productos\/paninis\/panini.jpeg"
+  },
+  {
+    "nombre": "panini",
+    "precio": 1.50,
+    "descripcion": "panini de pollo",
+    "imagen": "assets\/productos\/paninis\/panini.jpeg"
+  },
+  {
+    "nombre": "panini",
+    "precio": 1.50,
+    "descripcion": "panini de pollo",
+    "imagen": "assets\/productos\/paninis\/panini.jpeg"
+  },
+  {
+    "nombre": "panini",
+    "precio": 1.50,
+    "descripcion": "panini de pollo",
+    "imagen": "assets\/productos\/paninis\/panini.jpeg"
+  },
+  {
+    "nombre": "panini",
+    "precio": 1.50,
+    "descripcion": "panini de pollo",
+    "imagen": "assets\/productos\/paninis\/panini.jpeg"
+  }
+]

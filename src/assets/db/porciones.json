@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "porcion",
+    "precio": 1.50,
+    "descripcion": "porcion de pollo",
+    "imagen": "assets\/productos\/porciones\/porcion.jpeg"
+  },
+  {
+    "nombre": "porcion",
+    "precio": 1.50,
+    "descripcion": "porcion de pollo",
+    "imagen": "assets\/productos\/porciones\/porcion.jpeg"
+  },
+  {
+    "nombre": "porcion",
+    "precio": 1.50,
+    "descripcion": "porcion de pollo",
+    "imagen": "assets\/productos\/porciones\/porcion.jpeg"
+  },
+  {
+    "nombre": "porcion",
+    "precio": 1.50,
+    "descripcion": "porcion de pollo",
+    "imagen": "assets\/productos\/porciones\/porcion.jpeg"
+  },
+  {
+    "nombre": "porcion",
+    "precio": 1.50,
+    "descripcion": "porcion de pollo",
+    "imagen": "assets\/productos\/porciones\/porcion.jpeg"
+  }
+]

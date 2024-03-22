@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "pizza",
+    "precio": 1.50,
+    "descripcion": "pizza de pollo",
+    "imagen": "assets\/productos\/pizzas\/pizza.jpeg"
+  },
+  {
+    "nombre": "pizza",
+    "precio": 1.50,
+    "descripcion": "pizza de pollo",
+    "imagen": "assets\/productos\/pizzas\/pizza.jpeg"
+  },
+  {
+    "nombre": "pizza",
+    "precio": 1.50,
+    "descripcion": "pizza de pollo",
+    "imagen": "assets\/productos\/pizzas\/pizza.jpeg"
+  },
+  {
+    "nombre": "pizza",
+    "precio": 1.50,
+    "descripcion": "pizza de pollo",
+    "imagen": "assets\/productos\/pizzas\/pizza.jpeg"
+  },
+  {
+    "nombre": "pizza",
+    "precio": 1.50,
+    "descripcion": "pizza de pollo",
+    "imagen": "assets\/productos\/pizzas\/pizza.jpeg"
+  }
+]

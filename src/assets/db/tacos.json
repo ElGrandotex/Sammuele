@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "taco",
+    "precio": 1.50,
+    "descripcion": "taco de pollo",
+    "imagen": "assets\/productos\/tacos\/taco.jpg"
+  },
+  {
+    "nombre": "taco",
+    "precio": 1.50,
+    "descripcion": "taco de pollo",
+    "imagen": "assets\/productos\/tacos\/taco.jpg"
+  },
+  {
+    "nombre": "taco",
+    "precio": 1.50,
+    "descripcion": "taco de pollo",
+    "imagen": "assets\/productos\/tacos\/taco.jpg"
+  },
+  {
+    "nombre": "taco",
+    "precio": 1.50,
+    "descripcion": "taco de pollo",
+    "imagen": "assets\/productos\/tacos\/taco.jpg"
+  },
+  {
+    "nombre": "taco",
+    "precio": 1.50,
+    "descripcion": "taco de pollo",
+    "imagen": "assets\/productos\/tacos\/taco.jpg"
+  }
+]
