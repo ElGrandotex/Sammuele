@@ -1,5 +1,5 @@
 <div class="fondo text-center">
-  <h1 class="wire-one fondoText text-light">CARTA</h1>
+  <h1 class="wire-one fondoText text-light" id="carta">CARTA</h1>
   <br>
   <div class="contanier wire-one2">
     <div class="row px-4">
@@ -29,47 +29,177 @@
       </div>
     </div>
   </div>
-
   <br><br>
+
+  <!-- PIZZAS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Pizzas">Pizzas</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjeta -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (pizza of pizzas; track pizza) {
+    <div class="col">
+      <div class="card">
+        <img src="{{pizza.imagen}}" alt="{{pizza.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{pizza.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{pizza.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{pizza.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- PANINIS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Paninis">Paninis</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (panini of paninis; track panini) {
+    <div class="col">
+      <div class="card">
+        <img src="{{panini.imagen}}" alt="{{panini.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{panini.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{panini.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{panini.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- HAMBURGUESAS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Hamburguesas">Hamburguesas</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (hamburguesa of hamburguesas; track hamburguesa) {
+    <div class="col">
+      <div class="card">
+        <img src="{{hamburguesa.imagen}}" alt="{{hamburguesa.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{hamburguesa.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{hamburguesa.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{hamburguesa.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- LASAGNAS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Lasagnas">Lasagnas</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (lasagna of lasagnas; track lasagna) {
+    <div class="col">
+      <div class="card">
+        <img src="{{lasagna.imagen}}" alt="{{lasagna.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{lasagna.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{lasagna.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{lasagna.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- KEBABS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Kebab">Kebab</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (kebab of kebabs; track kebab) {
+    <div class="col">
+      <div class="card">
+        <img src="{{kebab.imagen}}" alt="{{kebab.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{kebab.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{kebab.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{kebab.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- TACOS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Tacos">Tacos</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (taco of tacos; track taco) {
+    <div class="col">
+      <div class="card">
+        <img src="{{taco.imagen}}" alt="{{taco.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{taco.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{taco.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{taco.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- PORCIONES -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Porciones">Porciones</p>
-    <!-- tarjetas -->
   </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (porcion of porciones; track porcion) {
+    <div class="col">
+      <div class="card">
+        <img src="{{porcion.imagen}}" alt="{{porcion.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{porcion.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{porcion.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{porcion.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+
+  <!-- OTROS -->
   <div class="wire-one contenedor">
     <hr>
     <p class="px-2 text-light" id="Otros">Otros</p>
-    <!-- tarjetas -->
+  </div>
+  <!-- tarjetas -->
+  <div class="row inter-fuente row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-xs-2 g-4 p-4">
+    @for (otro of otros; track otro) {
+    <div class="col">
+      <div class="card">
+        <img src="{{otro.imagen}}" alt="{{otro.nombre}}" class="card-img-top">
+        <p class="card-title p-2">{{otro.nombre}}</p>
+        <div class="card-body text-start">
+          <p class="text-success">$ {{otro.precio}}</p>
+          <span style="color: gray; font-size: 14px;">{{otro.descripcion}}</span>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  <div class="boton-fijo">
+    <button class="btn btn-success material-symbols-outlined" (click)="desplazar('carta')">stat_1</button>
   </div>
 </div>
 
